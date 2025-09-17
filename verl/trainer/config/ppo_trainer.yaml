@@ -184,13 +184,13 @@ actor_rollout_ref:
     entropy_pivot: 0.8
 
     # Whether to apply adaptive clip for HAPO loss
-    adaptive_clip: False
+    adaptive_clip: True
 
     # Strength of adaptive clip
     clip_alpha: 1.0
 
     # Whether to use adaptive advantage differential
-    adaptive_advantage: False
+    adaptive_advantage: True
 
     # Strength of adaptive advantage differential
     adv_beta: 1.0
@@ -329,7 +329,7 @@ actor_rollout_ref:
     temperature: 1.0
 
     # Whether to apple adaptive temperature during rollout
-    adaptive_temperature: False
+    adaptive_temperature: True
 
     # Strength of adaptive temperature
     temperature_tau: 0.05

@@ -71,7 +71,7 @@ To support Adaptive Temperature Sampling, you need to replace the vllm-related f
 
 ### Train
 
-Our training scripts are located in the `recipe/` folder. You only need to replace `MODEL_PATH`, `TRAIN_FILE` and `TEST_FILE`. You can see detailed parameter explanations in `recipe/train.md`. 
+Our training scripts are located in the [recipe](recipe/) folder. You only need to replace `MODEL_PATH`, `TRAIN_FILE` and `TEST_FILE`. You can see detailed parameter explanations in [train.md](recipe/train.md). 
 
 ```bash
 cd recipe
